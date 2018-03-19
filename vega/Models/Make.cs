@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace vega.Models
 {
-    [Table("Models")]
+    [Table("Makes")]
     public class Make
     {
         public int Id { get; set; }
@@ -24,5 +24,8 @@ namespace vega.Models
         {
             Models = new Collection<Model>();
         }
-    }
+
+
+
+}
 }
